@@ -163,13 +163,9 @@ libdrm-devel:
   license_file: null
 libglvnd:
   custom: false
-  skipped_cdts:
-    - cos6-x86_64
   license_file: licenses/libglvnd-license
 libglvnd-glx:
   custom: false
-  skipped_cdts:
-    - cos6-x86_64
   license_file: licenses/libglvnd-license
   build_append:
     all: |
